@@ -3,8 +3,8 @@
 const Curso = require('./Curso');
 
 const curso = Curso.build({
-    titulo: 'CCNA 1',
-    descripcion: 'Curso basico de redes 1 con ccna y cisco'    
+    titulo: 'Programación Orientada al Objeto',
+    descripcion: 'Programacion utilizando objetos, herencias , colaboracion'
 });
 
 curso.save().then(()=> {
